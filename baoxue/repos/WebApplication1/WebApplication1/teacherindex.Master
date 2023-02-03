@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="teacherindex.master.cs" Inherits="WebApplication1.teacherindex" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+     <link rel="stylesheet" href="/css/rootindex.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link rel="stylesheet" href="/css/rootindex.css"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="all">
+            <div class="head-title">
+                <p style="font-weight: bold; font-style: italic;">
+              高校科研管理系统
+                </p>
+
+            <div class="head-right">
+                <div>
+                  <p> 你好：<%= Session["userName"].ToString()%></p>
+            欢迎使用高校科研管理系统</p>
+            </div>
+            </div>
+
+
+            </div>
+
+
+            <div class="main">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+
+        <div class="left-table">
+            <asp:Menu ID="Menu3" runat="server" BorderStyle="None" BorderWidth="20000px" OnMenuItemClick="Menu3_MenuItemClick">
+                    <Items>
+
+                        <asp:MenuItem></asp:MenuItem>
+
+                        <asp:MenuItem Text="个人信息管理" Value="科研申报管理" NavigateUrl="~/Teacherupdate.aspx">
+                        </asp:MenuItem>
+                       
+                        <asp:MenuItem Text="科研申报" Value="科研审批管理" NavigateUrl="~/addproject.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="我的科研申报" Value="科研验收管理" NavigateUrl="~/myprojectsb.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="我的科研审批" Value="科研验收管理" NavigateUrl="~/myprojectsp.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="我的科研验收" Value="我的科研验收" NavigateUrl="~/myprojectys.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+        </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

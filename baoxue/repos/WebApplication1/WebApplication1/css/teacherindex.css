@@ -1,0 +1,42 @@
+﻿.all {
+    background-color: wheat;
+    width: 100%;
+    height: 2000px;
+}
+
+.head-title {
+    background-color: aliceblue;
+    width: 263px;
+    height: 65px;
+}
+
+.head-right {
+    float: left;
+    background-color: #ffffffb3;
+    width: 843px;
+    height: 45px;
+    margin-left: 262px;
+    margin-top: -45px;
+}
+
+#Menu1 a.static {
+    padding-left: 3.15em;
+    padding-right: 0.15em;
+    margin-top: 10px;
+}
+
+.main {
+    margin-top: 0px;
+    width: 842px;
+    height: 445px;
+    margin-left: 263px;
+    background-color: aqua;
+}
+
+.left-table {
+    width: 263px;
+    height: 445px;
+    margin-left: 0px;
+    margin-top: -445px;
+    background-color: blue;
+}
