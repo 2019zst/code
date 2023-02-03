@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity2">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+       >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="13dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:layout_marginTop="20dp"
+            android:text="  朋友圈"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="30dp"
+            android:textColor="#ccc"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+       >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="13dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:layout_marginTop="20dp"
+            android:text="  视频号"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="30dp"
+            android:textColor="#ccc"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+      >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="13dp"
+
+           />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:layout_marginTop="20dp"
+            android:text="  直播"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  >"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="30dp"
+            android:textColor="#ccc"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+       >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="13dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:layout_marginTop="20dp"
+            android:text="  扫一扫"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="30dp"
+            android:textColor="#ccc"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+       >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="13dp"
+
+           />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:layout_marginTop="20dp"
+            android:text="  摇一摇"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="30dp"
+            android:textColor="#ccc"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+      >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="13dp"
+
+           />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:layout_marginTop="20dp"
+            android:text="  看一看"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="30dp"
+            android:textColor="#ccc"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        >
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            ></Button>
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="通讯录"
+            ></Button>
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="发现"
+            ></Button>
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="我"
+            ></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
